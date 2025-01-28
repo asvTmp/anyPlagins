@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Habr Cleaner",
+    "version": "1.0",
+    "description": "Удаляет header, sidebar и footer со страниц Habr.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["*://habr.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
