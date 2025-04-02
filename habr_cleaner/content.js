@@ -14,12 +14,15 @@ const stringArray = [
     '.tm-article-sticky-panel',
     '.banner-wrapper',
     '.overlays',
-    //'.tm-article-snippet__meta-container',
+    '.tm-article-snippet__meta-container',
     '.tm-article-snippet__stats',
     '.tm-article-presenter__origin',
     '.tm-publication-hubs__container',
     '.tm-article-labels',
     '.article-donation-block',
+    'tm-company-profile-card tm-company-article__profile-card',
+    'tm-company-article__profile-card',
+    'tm-company-profile-card',
     '.tm-footer'
 ];
 

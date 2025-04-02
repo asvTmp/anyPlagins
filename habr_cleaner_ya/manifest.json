@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Habr Cleaner YA",
+    "version": "1.0",
+    "description": "Delete from Habr.com",
+    "content_scripts": [
+      {
+        "matches": ["*://habr.com/*", "*://*.habr.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
