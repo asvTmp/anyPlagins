@@ -11,6 +11,11 @@ const elementsToRemove = [
     '.tm-footer-menu',
     '.tm-article-snippet__stats',
     '.tm-article-labels',
+    '.fixed-banner-wrapper',
+    '.tm-article-presenter__meta',
+    '.full-width',
+    '.tm-article-presenter__origin',
+    '.tm-publication-hubs__container',
     '.tm-company-card', // Карточки компаний
     '.tm-article-snippet__hubs', // Хабры в превью статей
     '.tm-footer', // Футер
